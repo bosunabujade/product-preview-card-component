@@ -1,5 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body{
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    margin: 20px 0;
+    font-size: 14px;
+}
+.item-preview{
+    background-color: white;
+    width: 90%;
+    border-radius: 10px;
+}
+img{ 
+    width: 100%;
+}
+.mobile-picture{
+    border-radius: 10px 10px 0 0;
+}
+.desktop-picture{
+    display: none;
+}
 
+.item-description{
+    padding: 10px 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-size: .6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 7px 0;
+    letter-spacing: .3rem;
+    color: hsl(228, 12%, 48%);
+    
+}
+
+h1{
+    font-size: 1.7rem;
+    font-family: 'Fraunces', serif;
+    line-height: 27px;
+    padding: 5px 0;
+}
+
+p{
+    color:hsl(228, 12%, 48%);
+    font-size: .75rem;
+    padding: 5px 0;
+    line-height: 18px;
+}
+
+h3{
+    font-size: 1.7rem;
+    color: hsl(158, 36%, 37%);
+    padding: 5px 0;
+    font-family: 'Fraunces', 'serif';
+    display: flex;
+
+}
+h3 span{
+    font-size: .7rem;
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', 'san-serif';
+    text-decoration: line-through;
+    align-self: center;
+    padding: 0 20px;
+    font-weight: 500;
+}
+
+button{
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    border:none;
+    width:90%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    align-self: center;
+    font-weight: 700;
+    font-size: .8rem;
+}
+button img{
+    height: 14px;
+    width: auto;
+    padding: 1px;
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
