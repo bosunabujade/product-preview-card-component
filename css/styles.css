@@ -1,3 +1,4 @@
+/*-----------General Style-----------*/
 *{
     margin: 0;
     padding: 0;
@@ -99,5 +100,69 @@ button:hover{
     cursor: pointer;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+     font-size: .8rem; 
+     text-align: center; 
+     padding: 10px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+/*-------------Desktop Styles----------------*/
+@media only screen and (min-width:1024px) {
+    body{
+        margin: 100px 0;
+    }
+    .item-preview{
+        display: flex;
+        width: 50%;
+        height: 50%;
+    }
+    .desktop-picture{
+        border-radius: 10px 0 0 10px;
+        display: inline;
+        width: 50%;
+        height: auto;
+    }
+    .mobile-picture{
+        display: none;
+    }
+    .item-description{
+        padding: 30px 40px;
+    }
+
+    h2{
+        font-size: .8rem;
+        padding: 20px 0 15px 0;
+    }
+    h1{
+        font-size: 2.75rem;
+        line-height: 40px;
+        padding: 15px 0;
+    }
+    p{
+        font-size: 1rem;
+        line-height: 27px;
+        padding: 15px 0;
+    }
+    h3{
+        font-size: 2rem;
+        padding: 10px 0 20px 0;
+    }
+    h3 span{
+        font-size: 1rem;
+    }
+    button{
+        font-size: 1rem;
+        padding: 15px 20px;
+        margin: 5px 0 0 0;
+    }
+    button img{
+        height: 18px;
+    }
+    .attribution{
+        font-size: 1rem;
+    }
+}
